@@ -4,10 +4,10 @@
 int main(){
 	// punkt
 	/*
+	*/
 	Punkt xy;
 	xy.wczytaj();
 	xy.wypisz();
-	*/
 
 	// punkt3
 	/*
@@ -16,6 +16,11 @@ int main(){
 	Punkt3 xyz;
 	xyz.wczytaj();
 	xyz.wypisz();
+
+	std::cout << "po rzutorwaniu \n";
+	Punkt rzutuj;
+	rzutuj = rzutuj.rzutuj(xyz);
+	rzutuj.wypisz();
 }
 
 /*

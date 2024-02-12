@@ -7,6 +7,9 @@ void Punkt::wczytaj(){
 	std::cout << "podaj y: "; std::cin >> y;
 }
 
+
+
+/*
 Punkt Punkt::rzutuj(Punkt3 p3){
 	Punkt p2;
 	p2.x = p3.x;
@@ -18,3 +21,4 @@ void Punkt::rzutuj(Punkt3 p3){
 	x = p3.x;
 	y = p3.y;
 }
+*/

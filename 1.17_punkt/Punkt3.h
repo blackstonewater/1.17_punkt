@@ -1,16 +1,31 @@
 ﻿#pragma once
-#include "Punkt.h"
-
+#include <iostream>
 class Punkt3
 {
 public:
+	void set_x(){
+		std::cout << "podaj x: "; std::cin >> x; }
+	void set_y(){
+		std::cout << "podaj y: "; std::cin >> y; }
+	void set_z(){
+		std::cout << "podaj z: "; std::cin >> z; }
+
+	int get_x() const{
+		return x; }
+	int get_y() const{
+		return y; }
+	int get_z() const{
+		return z; }
+
 	void wczytaj();
 	void wypisz() const;
+
+	
+private:
 	int x{};
 	int y{};
 	int z{};
-	friend Punkt rzutuj(Punkt3 p3);
-private:
+	
 
 };
 

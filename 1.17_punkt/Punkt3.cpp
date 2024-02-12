@@ -2,9 +2,9 @@
 #include <iostream>
 
 void Punkt3::wczytaj(){
-	std::cout << "podaj x: "; std::cin >> x;
-	std::cout << "podaj y: "; std::cin >> y;
-	std::cout << "podaj z: "; std::cin >> z;
+	set_x();
+	set_y();
+	set_z();
 }
 
 void Punkt3::wypisz() const{
@@ -13,7 +13,3 @@ void Punkt3::wypisz() const{
 	std::cout << "punkt z: " << z << "\n";
 }
 
-Punkt rzutuj(Punkt3 p3)
-{
-	return Punkt();
-}
