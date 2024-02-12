@@ -2,9 +2,13 @@
 #include <iostream>
 
 void Punkt3::wczytaj(){
-	set_x();
-	set_y();
-	set_z();
+	int data{};
+	std::cout << "podaj x: "; std::cin >> data;
+	set_x(data);
+	std::cout << "podaj y: "; std::cin >> data;
+	set_y(data);
+	std::cout << "podaj z: "; std::cin >> data;
+	set_z(data);
 }
 
 void Punkt3::wypisz() const{

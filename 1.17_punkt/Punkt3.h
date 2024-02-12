@@ -3,12 +3,12 @@
 class Punkt3
 {
 public:
-	void set_x(){
-		std::cout << "podaj x: "; std::cin >> x; }
-	void set_y(){
-		std::cout << "podaj y: "; std::cin >> y; }
-	void set_z(){
-		std::cout << "podaj z: "; std::cin >> z; }
+	void set_x(int new_x){
+		 x = new_x; }
+	void set_y(int new_y){
+		y = new_y; }
+	void set_z(int new_z){
+		z = new_z; }
 
 	int get_x() const{
 		return x; }

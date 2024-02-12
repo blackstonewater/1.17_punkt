@@ -3,8 +3,12 @@
 #include <iostream>
 
 void Punkt::wczytaj(){
-	std::cout << "podaj x: "; std::cin >> x;
-	std::cout << "podaj y: "; std::cin >> y;
+	//std::cout << "podaj x: "; std::cin >> x;
+	//std::cout << "podaj y: "; std::cin >> y;
+
+	int choice{};
+	std::cout << "podaj x: "; std::cin >> choice;
+	set_x(choice);
 }
 
 
